@@ -2,9 +2,15 @@ on:
   schedule:
     - cron: '0 0 * * *'
 jobs:
-  update:
+  update-dunlop0:
     name: Update Dunlop0
     runs-on: ubuntu-latest
     steps:
       - name: cURL request
         run: curl -X POST https://api.wiseoldman.net/v2/players/dunlop0
+  update-ironmanitou:
+    name: Update IronManitou
+    runs-on: ubuntu-latest
+    steps:
+      - name: cURL request
+        run: curl -X POST https://api.wiseoldman.net/v2/players/IronManitou
