@@ -10,3 +10,5 @@ jobs:
         run: curl -X POST https://api.wiseoldman.net/v2/players/dunlop0
       - name: Update IronManitou
         run: curl -X POST https://api.wiseoldman.net/v2/players/IronManitou
+      - name: Update IronReAzem
+        run: curl -X POST https://api.wiseoldman.net/v2/players/IronReAzem
