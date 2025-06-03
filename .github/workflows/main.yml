@@ -3,14 +3,10 @@ on:
     - cron: '0 0 * * *'
 jobs:
   update-dunlop0:
-    name: Update Dunlop0
+    name: Update WiseOldMan profiles
     runs-on: ubuntu-latest
     steps:
-      - name: cURL request
+      - name: Update Dunlop0
         run: curl -X POST https://api.wiseoldman.net/v2/players/dunlop0
-  update-ironmanitou:
-    name: Update IronManitou
-    runs-on: ubuntu-latest
-    steps:
-      - name: cURL request
+      - name: Update IronManitou
         run: curl -X POST https://api.wiseoldman.net/v2/players/IronManitou
