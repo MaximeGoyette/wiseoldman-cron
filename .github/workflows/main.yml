@@ -14,3 +14,5 @@ jobs:
         run: curl -X POST https://api.wiseoldman.net/v2/players/ReAzem
       - name: Update ReAzem1
         run: curl -X POST https://api.wiseoldman.net/v2/players/ReAzem1
+      - name: Update pourliverbtw
+        run: curl -X POST https://api.wiseoldman.net/v2/players/pourliverbtw
