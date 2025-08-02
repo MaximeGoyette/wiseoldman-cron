@@ -3,7 +3,7 @@ on:
     - cron: '0 0 * * *'
 jobs:
   update-dunlop0:
-    name: Update WiseOldMan profiles
+    name: Update my WiseOldMan profiles
     runs-on: ubuntu-latest
     steps:
       - name: Update Dunlop0
